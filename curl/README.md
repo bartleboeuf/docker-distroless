@@ -1,15 +1,15 @@
 # Sample with CURL
 
-Create a Docker image distroless with only curl ! 
+Create a Docker image distroless & rootless with only curl ! 
 
 ## Build 
 
 ```shell
-docker build -t curl-less .
+docker build -t curl-lite .
 ```
 
 ## Run 
 
 ```shell
-docker run --rm curl-less https://www.mysite.com/
+docker run --rm curl-lite https://www.mysite.com/
 ```
